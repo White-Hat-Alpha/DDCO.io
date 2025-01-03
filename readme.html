@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --text-color: #34495e;
+            --light-bg: #ecf0f1;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            text-align: center;
+            font-size: 2.5em;
+            border-bottom: 3px solid var(--secondary-color);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            font-size: 1.8em;
+            margin-top: 30px;
+            border-left: 5px solid var(--accent-color);
+            padding-left: 15px;
+        }
+
+        h3 {
+            color: var(--primary-color);
+            font-size: 1.4em;
+            margin-top: 25px;
+        }
+
+        .module-container {
+            background-color: var(--light-bg);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+
+        li {
+            margin: 10px 0;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        li:before {
+            content: "•";
+            color: var(--accent-color);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .key-focus {
+            background-color: #fff;
+            border-left: 4px solid var(--accent-color);
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .prerequisites {
+            background-color: #fff;
+            border: 2px solid var(--secondary-color);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .contribute {
+            background-color: var(--light-bg);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Digital Design and Computer Organization</h1>
+
+    <div class="module-container">
+        <h2>Course Overview</h2>
+        <p>This repository contains comprehensive study materials and model questions for Digital Design and Computer Organization, covering fundamental concepts from basic digital design to advanced computer architecture.</p>
+    </div>
+
+    <h2>Table of Contents</h2>
+    <ul>
+        <li>Introduction to Digital Design</li>
+        <li>Combinational and Sequential Logic</li>
+        <li>Computer Architecture Basics</li>
+        <li>Input and Output Organisation</li>
+        <li>Basic Processing Units</li>
+    </ul>
+
+    <div class="module-container">
+        <h3>Module 1: Introduction to Digital Design</h3>
+        <ul>
+            <li>Positive and negative logic implementation using unate</li>
+            <li>Product of Sum (POS) expressions and NAND gate realizations</li>
+            <li>Boolean expression simplification using Karnaugh maps (K-maps)</li>
+            <li>Verilog code implementation for minimized expressions</li>
+            <li>Binary logic fundamentals and Boolean algebra laws</li>
+            <li>Sum of Product (SOP) expression derivation</li>
+        </ul>
+    </div>
+
+    <div class="module-container">
+        <h3>Module 2: Combinational and Sequential Logic</h3>
+        <ul>
+            <li>Combinational vs Sequential circuits with practical examples</li>
+            <li>Decoder implementation and Boolean function realization</li>
+            <li>Multiplexer-based Boolean function implementation</li>
+            <li>4-bit priority encoder design</li>
+            <li>Verilog implementation of full adder and subtractor circuits</li>
+            <li>Flip-flop characteristics (SR, JK, D, and T types)</li>
+        </ul>
+    </div>
+
+    <div class="module-container">
+        <h3>Module 3: Computer Architecture Basics</h3>
+        <ul>
+            <li>Addressing modes and their applications</li>
+            <li>Memory Program Counter (MPC) and Instruction Register (IR) functionality</li>
+            <li>Performance equations and spec ratings</li>
+            <li>Branching operations and loop implementation</li>
+            <li>Memory operand effective address calculation</li>
+            <li>Single bus structure analysis</li>
+        </ul>
+    </div>
+
+    <div class="module-container">
+        <h3>Module 4: Input and Output Organisation</h3>
+        <ul>
+            <li>Memory-mapped I/O concepts</li>
+            <li>I/O interface design for input devices</li>
+            <li>Keyboard and display device I/O operations</li>
+            <li>Interrupt handling mechanisms</li>
+            <li>Bus arbitration methods</li>
+            <li>Data path organization in processors</li>
+        </ul>
+    </div>
+
+    <div class="module-container">
+        <h3>Module 5: Basic Processing Units</h3>
+        <ul>
+            <li>Memory word fetching process</li>
+            <li>Pipeline performance analysis</li>
+            <li>Pipeline stalls and their implications</li>
+        </ul>
+    </div>
+
+    <div class="key-focus">
+        <h2>Key Focus Areas</h2>
+        <ul>
+            <li>Priority encoders</li>
+            <li>Instruction pipelining</li>
+            <li>Memory word fetching processes</li>
+            <li>Bus organization concepts</li>
+        </ul>
+    </div>
+
+    <div class="prerequisites">
+        <h2>Prerequisites</h2>
+        <ul>
+            <li>Digital electronics</li>
+            <li>Boolean algebra</li>
+            <li>Basic programming concepts</li>
+            <li>Circuit analysis</li>
+        </ul>
+    </div>
+
+    <div class="contribute">
+        <h2>Contributing</h2>
+        <ul>
+            <li>Adding more example problems</li>
+            <li>Sharing additional study materials</li>
+            <li>Suggesting improvements to explanations</li>
+            <li>Reporting errors or unclear content</li>
+        </ul>
+    </div>
+
+    <div class="module-container">
+        <h2>License</h2>
+        <p>This educational content is available for academic purposes. Please check with your institution for specific usage guidelines.</p>
+    </div>
+</body>
+</html>
